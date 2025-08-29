@@ -8,7 +8,7 @@ A simple Python script to install offline wheel files from a local directory.
 - Installs Python wheel (.whl) files from a `./downloads/` directory
 - Checks for virtual environment usage (recommended for safety)
 - Uses `--no-deps --force-reinstall` flags for offline installation
-- Works with wheel files downloaded separately (e.g., using download_requirements_wheels)
+- Can be used with [download_requirements_wheels](https://github.com/Moge800/download_requirements_wheels) to download wheels first.
 
 ### Usage
 1. Place your wheel files in a `./downloads/` directory
@@ -40,7 +40,7 @@ A simple Python script to install offline wheel files from a local directory.
 - `./downloads/` ディレクトリからPythonホイール(.whl)ファイルをインストール
 - 仮想環境の使用チェック（安全のため推奨）
 - オフラインインストール用に `--no-deps --force-reinstall` フラグを使用
-- download_requirements_wheelsリポジトリと併用してね
+- [download_requirements_wheels](https://github.com/Moge800/download_requirements_wheels) と併用することで、先にホイールをダウンロードできます。
 
 ### 使用方法
 1. ホイールファイルを `./downloads/` ディレクトリに配置
