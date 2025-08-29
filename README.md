@@ -40,7 +40,7 @@ A simple Python script to install offline wheel files from a local directory.
 - `./downloads/` ディレクトリからPythonホイール(.whl)ファイルをインストール
 - 仮想環境の使用チェック（安全のため推奨）
 - オフラインインストール用に `--no-deps --force-reinstall` フラグを使用
-- 別途ダウンロードしたホイールファイルと連携（例：download_requirements_wheels）
+- download_requirements_wheelsリポジトリと併用してね
 
 ### 使用方法
 1. ホイールファイルを `./downloads/` ディレクトリに配置
